@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.white {
+    background-color: white;
+}
+
+.light-grey {
+    background-color: lightgray;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.dark-grey {
+    background-color: darkgrey;
+}
+
+.black {
+    background-color: black;
+}
+
+.nav-bar {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 5fr 2fr;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.nav-icons {
+    height: 80%;
+}
+
+.nav-icons ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-icons li {
+    background-color: green;
+    width: 10%;
+    height: 80%;
+}
+
+.logo { 
+    height: 80px;
+}
+
+.search-bar {
+    height: 80px;
+}
+
+.border-radius-5px {
+    border-radius: 5px;
+}
