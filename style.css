@@ -1,27 +1,28 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .white {
-    background-color: white;
+  background-color: white;
 }
 
 .light-grey {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 .grey {
-    background-color: grey;
+  background-color: grey;
 }
 
 .dark-grey {
-    background-color: darkgrey;
+  background-color: darkgrey;
 }
 
 .black {
-    background-color: black;
+  background-color: black;
 }
 
 .nav-bar {
@@ -36,29 +37,58 @@ html, body {
 }
 
 .nav-icons {
-    height: 80%;
+  height: 80px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.nav-icons ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
 }
 
-.nav-icons li {
-    background-color: green;
-    width: 10%;
-    height: 80%;
+li {
+  width: 10%;
+  height: 60px;
+  background-color: darkgrey;
 }
 
-.logo { 
-    height: 80px;
+.logo {
+  height: 80px;
 }
 
 .search-bar {
-    height: 80px;
+  height: 80px;
 }
 
-.border-radius-5px {
-    border-radius: 5px;
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.type1 {
+  height: 700px;
+  width: 50%;
+  padding: 10% 20px;
+  box-sizing: border-box;
+}
+
+.author {
+  height: 10%;
+}
+
+.author-img {
+  height: 80%;
+  width: 10%;
+}
+
+.author-name {
 }
