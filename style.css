@@ -10,19 +10,23 @@ body {
 }
 
 .light-grey {
-  background-color: lightgray;
+  background-color: rgb(235, 235, 235);
 }
 
 .grey {
-  background-color: grey;
+  background-color: rgb(151, 151, 151);
 }
 
 .dark-grey {
-  background-color: darkgrey;
+  background-color: rgb(78, 78, 78);
 }
 
 .black {
   background-color: black;
+}
+
+.border-radius {
+  border-radius: 5px;
 }
 
 .nav-bar {
@@ -55,9 +59,10 @@ ul {
 }
 
 li {
-  width: 10%;
+  width: 20%;
   height: 60px;
-  background-color: darkgrey;
+  background-color: rgb(78, 78, 78);
+  border-radius: 5px;
 }
 
 .logo {
@@ -66,6 +71,12 @@ li {
 
 .search-bar {
   height: 80px;
+}
+
+.header {
+  height: 80px;
+  width: 20%;
+  margin: 10px auto 10px auto;
 }
 
 .container {
@@ -77,18 +88,30 @@ li {
 .type1 {
   height: 700px;
   width: 50%;
-  padding: 10% 20px;
+  padding: 2% 20px 4% 20px;
   box-sizing: border-box;
 }
 
 .author {
-  height: 10%;
+  height: 15%;
+  padding: 2%;
 }
 
 .author-img {
-  height: 80%;
-  width: 10%;
+  height: 80px;
+  width: 80px;
+  float: left;
 }
 
 .author-name {
+  height: 80px;
+  width: 80%;
+  float: right;
+}
+
+.type1 h2 {
+  height: 30%;
+  width: 100%;
+  font-size: 28px;
+  padding: 5% 0;
 }
