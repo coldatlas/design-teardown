@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system,
+    BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu,
+    Cantarell, Georgia, serif;
+
 }
 
 .white {
@@ -23,6 +27,11 @@ body {
 
 .black {
   background-color: black;
+}
+
+.content-font {
+  padding: 20px;
+  font-size: 23px;
 }
 
 .border-radius {
@@ -114,4 +123,83 @@ li {
   width: 100%;
   font-size: 28px;
   padding: 5% 0;
+}
+
+.type2 {
+  height: 600px;
+  width: 30%;
+  padding: 2% 20px 4% 20px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.article-title {
+  height: 10%;
+  font-size: 23px;
+  color: white;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
+
+.author-name {
+  margin-right: 70%;
+  height: 30px;
+  width: 30%;
+  margin-top: 10%;
+}
+
+.article-content {
+  width: 100%;
+  height: auto;
+  margin-top: 25%;
+  box-sizing: border-box;
+  color: white;
+}
+
+.article-arrow {
+  width: 13%;
+  height: 50px;
+  margin-top: 17%;
+}
+
+.type3 {
+  height: 600px;
+  width: 30%;
+  padding: 2% 20px 4% 20px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.ad-image {
+  width: 40%;
+  height: 150px;
+  margin: auto;
+}
+
+.ad-content {
+  color: black;
+  font-size: 17px;
+}
+
+.type3 h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.ad-button {
+  width: 40%;
+  height: 40px;
+  margin: auto;
+  margin-top: 20%;
+}
+
+.ad-sign-in {
+  width: 45%;
+  height: 15px;
+  margin: auto;
+  margin-top: 3%;
 }
