@@ -28,6 +28,10 @@ body {
   background-color: black;
 }
 
+.bs-bb {
+  box-sizing: border-box;
+}
+
 .fr {
   float: right;
 }
@@ -63,13 +67,11 @@ body {
   align-items: center;
   gap: 20px;
   padding: 20px;
-  box-sizing: border-box;
 }
 
 .nav-icons {
   height: 80px;
   padding: 10px;
-  box-sizing: border-box;
 }
 
 ul {
@@ -117,7 +119,6 @@ li {
   height: 700px;
   width: 50%;
   padding: 2% 20px 4% 20px;
-  box-sizing: border-box;
 }
 
 .author {
@@ -147,7 +148,6 @@ li {
   height: 600px;
   width: 31%;
   padding: 2% 20px 4% 20px;
-  box-sizing: border-box;
   margin: 10px;
 }
 
@@ -156,7 +156,6 @@ li {
   font-size: 23px;
   color: white;
   padding: 5px 20px;
-  box-sizing: border-box;
 }
 
 .author-name {
@@ -168,7 +167,6 @@ li {
 
 .article-content {
   margin-top: 25%;
-  box-sizing: border-box;
   color: white;
 }
 
@@ -182,7 +180,6 @@ li {
   height: 600px;
   width: 30%;
   padding: 2% 20px 4% 20px;
-  box-sizing: border-box;
   margin: 10px;
 }
 
@@ -198,7 +195,6 @@ li {
 .ad-content {
   color: black;
   font-size: 20px;
-  box-sizing: border-box;
 }
 
 .type3 h1 {
@@ -302,7 +298,6 @@ li {
 
 .comment {
   padding: 20px;
-  box-sizing: border-box;
 }
 
 .orange-section {
@@ -326,7 +321,6 @@ li {
 .orange-sec-content {
   color: black;
   font-size: 20px;
-  box-sizing: border-box;
 }
 
 .or-btn {
