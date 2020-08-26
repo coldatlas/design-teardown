@@ -3,9 +3,20 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system,
-    BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu,
-    Cantarell, Georgia, serif;
+  font-family:
+    Calibri Bold,
+    AvenirNext,
+    Avenir,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
 }
 
 .white {
@@ -132,12 +143,6 @@ li {
   float: left;
 }
 
-.author-name {
-  height: 80px;
-  width: 80%;
-  float: right;
-}
-
 .type1 h2 {
   height: 30%;
   font-size: 28px;
@@ -163,6 +168,7 @@ li {
   height: 30px;
   width: 30%;
   margin-top: 10%;
+  float: right;
 }
 
 .article-content {
@@ -361,6 +367,7 @@ li {
   height: 60px;
   margin-top: 3%;
 }
+
 footer {
   padding: 60px 0;
 }
